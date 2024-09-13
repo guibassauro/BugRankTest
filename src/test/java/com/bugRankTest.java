@@ -10,10 +10,10 @@ import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class AutomacaoTeste {
+public class bugRankTest {
     
     @Test 
-    public void pesquisarGoogle(){
+    public void testeCriarDuasContasValidasEValidarTransicao(){
         // Passo 1. Acessar o site https://bugbank.netlify.app/
 
         WebDriverManager.chromedriver().setup();
